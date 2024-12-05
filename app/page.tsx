@@ -1,11 +1,10 @@
 'use client'
-
+export const runtime = "edge";
 import ThemeToggle from '../components/ThemeToggle'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import { useTheme } from '../contexts/ThemeContext'
 import { colors } from '../utils/colors'
 
-import Header from '../components/Header'
 import Profile from '../components/Profile'
 import AboutMe from '../components/AboutMe'
 import Experience from '../components/Experience'

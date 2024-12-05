@@ -6,7 +6,6 @@ import { useTheme } from '../contexts/ThemeContext'
 
 export default function Experience() {
   const { t } = useLanguage()
-  const { theme } = useTheme()
 
   return (
     <div className="mb-12">
