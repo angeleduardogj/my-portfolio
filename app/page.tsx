@@ -1,6 +1,6 @@
 'use client'
 export const runtime = "edge";
-import ThemeToggle from '../components/ThemeToggle'
+// import ThemeToggle from '../components/ThemeToggle'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import { useTheme } from '../contexts/ThemeContext'
 import { colors } from '../utils/colors'
