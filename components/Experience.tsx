@@ -39,7 +39,7 @@ export default function Experience() {
   )
 }
 
-function ExperienceItem({ title, date, description, work, isLatest = false, icon=<Calendar className="w-2.5 h-2.5" /> }) {
+function ExperienceItem({ title, date, description, work, isLatest = false, icon=<Calendar className="w-2.5 h-2.5" /> }:any) {
   const { t } = useLanguage()
   const { theme } = useTheme()
 

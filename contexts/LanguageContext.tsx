@@ -12,7 +12,7 @@ type LanguageContextType = {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
-const translations = {
+const translations :any = {
   en: {
     'darkMode': 'Dark Mode',
     'lightMode': 'Light Mode',
