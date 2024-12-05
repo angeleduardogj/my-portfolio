@@ -3,13 +3,16 @@
 import { Calendar,Plane,Compass, MapPin } from 'lucide-react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { useTheme } from '../contexts/ThemeContext'
+import { colors } from '../utils/colors'
+
 
 export default function Experience() {
+
   const { t } = useLanguage()
 
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">{t('experience')}</h2>
+      <h2 className="text-2xl font-bold mb-4">{t('experience')}</h2>
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         <ExperienceItem
           title={t('experienceItem1Title')}
@@ -41,6 +44,7 @@ export default function Experience() {
 function ExperienceItem({ title, date, description, work, isLatest = false, icon=<Calendar className="w-2.5 h-2.5" /> }:any) {
   const { t } = useLanguage()
   const { theme } = useTheme()
+  const themeColors = colors[theme as keyof typeof colors]
 
   return (
     <li className="mb-10 ms-6">
@@ -52,7 +56,7 @@ function ExperienceItem({ title, date, description, work, isLatest = false, icon
         {/* <Calendar className="w-2.5 h-2.5" /> */}
       {icon}
       </span>
-      <h3 className="flex flex-col sm:flex-row items-start sm:items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+      <h3 className={`flex flex-col sm:flex-row items-start sm:items-center mb-1 text-lg font-semibold ${themeColors.muted}`}>
         {title}
         {isLatest && (
           <span className={`text-sm font-medium me-2 px-2.5 py-0.5 rounded mt-2 sm:mt-0 sm:ms-3 ${

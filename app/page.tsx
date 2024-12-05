@@ -15,10 +15,10 @@ export default function Home() {
   const themeColors = colors[theme as keyof typeof colors]
 
   return (
-    <div className={`min-h-screen ${themeColors.background} transition-colors duration-200`}>
+    <div className={`min-h-screen ${themeColors.muted} transition-colors duration-200`}>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <div className="flex justify-end space-x-4 mb-8">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <LanguageSwitcher />
         </div>
         <Profile />

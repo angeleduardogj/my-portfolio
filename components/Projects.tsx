@@ -98,7 +98,7 @@ export default function Projects() {
                       : 'group-hover:bg-gray-800'
                   }`
             }`}>
-              <h3 className={`text-center text-lg font-semibold px-4 mb-2 transition-opacity duration-300 ${
+              <h3 className={`text-center text-lg font-semibold px-4 mb-2 transition-opacity duration-300 text-black dark:text-white ${
                 selectedProject?.id === image.id
                   ? themeColors.text
                   : `${themeColors.text} opacity-0 group-hover:opacity-100`

@@ -11,8 +11,8 @@ export default function AboutMe() {
  
   return (
     <div className="mb-8">
-      <h2 className={`text-2xl font-bold ${themeColors.text} mb-4`}>{t('aboutMe')}</h2>
-      <p className={`${themeColors.text}`}>
+      <h2 className={`text-2xl font-bold ${themeColors.muted} mb-4`}>{t('aboutMe')}</h2>
+      <p className={`${themeColors.muted}`}>
         {t('aboutMeContent')}
       </p>
     </div>

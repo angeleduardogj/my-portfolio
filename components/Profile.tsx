@@ -9,7 +9,7 @@ export default function Profile() {
     <div className="mb-8">
       <div className="flex flex-col items-center md:flex-row md:items-start">
         <div className="text-center md:text-left md:flex-1 md:order-1">
-          <h1 className={`text-3xl font-bold ${themeColors.text} mb-2`}>
+          <h1 className={`text-3xl font-bold ${themeColors.muted} mb-2`}>
             Angel Eduardo Gaxiola Javier
           </h1>
           <p className={`text-xl ${themeColors.muted} mb-4`}>
@@ -30,7 +30,7 @@ export default function Profile() {
     <a
       key={social}
       href="#"
-      className="text-gray-500 hover:text-blue-500 transition-colors duration-200"
+      className="text-gray-500 hover:text-white transition-colors duration-200"
     >
       <span className="sr-only">{social}</span>
       <SocialIcon type={social} />
