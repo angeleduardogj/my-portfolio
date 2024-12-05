@@ -8,7 +8,7 @@ export default function AboutMe() {
   const { t } = useLanguage()
   const { theme } = useTheme()
   const themeColors = colors[theme as keyof typeof colors]
-
+ 
   return (
     <div className="mb-8">
       <h2 className={`text-2xl font-bold ${themeColors.text} mb-4`}>{t('aboutMe')}</h2>
