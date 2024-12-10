@@ -45,7 +45,7 @@ export function ProjectModal({ isOpen, onClose, project }: ProjectModalProps) {
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black bg-opacity-50 flex items-center justify-center p-4">
       <div
         ref={modalRef}
-        className={`relative ${themeColors.background} rounded-lg shadow-xl max-w-2xl w-full mx-auto`}
+        className={`bg-gray-900 relative rounded-lg shadow-xl max-w-2xl w-full mx-auto`}
         role="dialog"
         aria-modal="true"
         aria-labelledby="modal-title"
