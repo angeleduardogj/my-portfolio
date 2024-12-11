@@ -26,14 +26,15 @@ export default function Profile() {
           </p>
           
           <div className="flex justify-center md:justify-start space-x-2">
-  {['email', 'phone', 'linkedin', 'twitter', 'github'].map((social) => (
+  {[{type:'email', url:'mailto:angeleduardogj@gmail.com'}, {type:'linkedin', url:'https://www.linkedin.com/in/angeleduardogj/'},{type:'github', url:'https://github.com/angeleduardogj'}].map(({ type, url }) => (
     <a
-      key={social}
-      href="#"
+      key={type}
+       href={url}
+      target="_blank"
       className="text-gray-500 hover:text-white transition-colors duration-200"
     >
-      <span className="sr-only">{social}</span>
-      <SocialIcon type={social} />
+      <span className="sr-only">{type}</span>
+      <SocialIcon type={type} />
     </a>
   ))}
 </div>

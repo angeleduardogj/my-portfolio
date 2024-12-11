@@ -19,33 +19,46 @@ export default function Projects() {
       id: 1,
       src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
       alt: "travel",
-      techs: ['React', 'Next.js', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB'],
+      techs: ['React', 'Next.js', 'PostgreSQL', 'MongoDB'],
       name: "travelab.mx",
-      description: "This project is a CRM for travel agents, designed to optimize client, booking, and service management in the tourism sector. The platform allows travel agents to organize and automate key processes, such as client tracking, itinerary management, and payment administration.\n\nWith a focus on efficiency, the CRM streamlines communication with clients, providing a smoother and more satisfactory experience. Additionally, it offers tools to generate reports, conduct sales analysis, and improve strategic decision-making, helping agents maximize productivity and provide better customer service."
+      description: "This project is a CRM for travel agents, designed to optimize client, booking, and service management in the tourism sector. The platform allows travel agents to organize and automate key processes, such as client tracking, itinerary management, and payment administration.\n\nWith a focus on efficiency, the CRM streamlines communication with clients, providing a smoother and more satisfactory experience. Additionally, it offers tools to generate reports, conduct sales analysis, and improve strategic decision-making, helping agents maximize productivity and provide better customer service.",
+      url:'',
     },
     {
       id: 2,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: "https://res.cloudinary.com/drotzbucj/image/upload/v1733905656/angeleduardogj-dev/tmhru7elngyccworzi3y.png",
       alt: "logistic",
-      techs: ['React', 'Next.js', 'Node.js', 'Express', 'PostgreSQL'],
+      techs: ['React', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB'],
       name: "logisoft.mx",
-      description: "This project focuses on logistics and fleet management, providing a platform that covers both transportation management and logistics in companies. It allows real-time monitoring and optimization of vehicle fleets while also improving efficiency in inventory management, product movement, and operational coordination within the company.\n\nWith a focus on automation, data analysis, and resource optimization, the system helps reduce costs, improve safety, and ensure more agile and efficient logistics, both for transportation and operations in the company."
+      description: "This project focuses on logistics and fleet management, providing a platform that covers both transportation management and logistics in companies. It allows real-time monitoring and optimization of vehicle fleets while also improving efficiency in inventory management, product movement, and operational coordination within the company.\n\nWith a focus on automation, data analysis, and resource optimization, the system helps reduce costs, improve safety, and ensure more agile and efficient logistics, both for transportation and operations in the company.",
+      url:'',
     },
     {
       id: 3,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: "https://res.cloudinary.com/drotzbucj/image/upload/v1733905660/angeleduardogj-dev/ylcsoe1ll9dvfqcwoefu.png",
       alt: "marketing",
-      techs: ['React', 'Next.js', 'MongoDB','Redis'],
+      techs: ['React', 'Next.js','Redis'],
       name: "ecards.card",
-      description: "This project is a platform for ecards, digital business cards created as micro-templates. Each card is designed to be minimalist, interactive, and adaptable, allowing users to share their information in a modern and professional way.\n\nWith a focus on simplicity and customization, the ecards can be generated quickly, offering a practical and sustainable alternative to physical business cards."
+      description: "This project is a platform for ecards, digital business cards created as micro-templates. Each card is designed to be minimalist, interactive, and adaptable, allowing users to share their information in a modern and professional way.\n\nWith a focus on simplicity and customization, the ecards can be generated quickly, offering a practical and sustainable alternative to physical business cards.",
+      url:'https://ecards-three.vercel.app/',
     },
     {
       id: 5,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: "https://res.cloudinary.com/drotzbucj/image/upload/v1733906337/angeleduardogj-dev/bktnao5x9kacaaovot6v.png",
       alt: "developer tools",
       techs: ['Rust', 'V8'],
       name: "jsruntime.dev",
-      description: "This project is a research initiative focused on creating a JAVASCRIPT runtime developed in RUST and powered by the V8 engine. The combination of RUST and V8 provides a solid and efficient approach, making this runtime a valuable tool for learning and a contribution to the JAVASCRIPT community."
+      description: "This project is a research initiative focused on creating a JAVASCRIPT runtime developed in RUST and powered by the V8 engine. The combination of RUST and V8 provides a solid and efficient approach, making this runtime a valuable tool for learning and a contribution to the JAVASCRIPT community.",
+      url:'',
+    },
+    {
+      id: 6,
+      src: "https://res.cloudinary.com/drotzbucj/image/upload/v1733905665/angeleduardogj-dev/j5kmlbm8xm2kiqon0bao.png",
+      alt: "landing page",
+      techs: ['Next.js'],
+      name: "lucynunez.design",
+      description: "Portfolio website for a graphic designer, showcasing her work and services. The site is designed to be clean, modern, and user-friendly, allowing visitors to easily navigate through the different sections and view the designer's projects.\n\nWith a focus on visual appeal and functionality, the website aims to highlight the designer's skills and creativity, providing a platform to attract potential clients and collaborators.",
+      url:'',
     },
 
   ]

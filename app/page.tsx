@@ -1,7 +1,7 @@
 'use client'
 export const runtime = "edge";
 // import ThemeToggle from '../components/ThemeToggle'
-import LanguageSwitcher from '../components/LanguageSwitcher'
+// import LanguageSwitcher from '../components/LanguageSwitcher'
 import { useTheme } from '../contexts/ThemeContext'
 import { colors } from '../utils/colors'
 
@@ -19,7 +19,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <div className="flex justify-end space-x-4 mb-8">
           {/* <ThemeToggle /> */}
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
         </div>
         <Profile />
         <AboutMe />
