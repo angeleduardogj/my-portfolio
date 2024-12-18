@@ -34,7 +34,7 @@ const translations :any = {
     'experienceItem3Title': 'Software engineer',
     'experienceItem3Work': 'Didcom',
     'experienceItem3Date': '2021 - 2022',
-    'experienceItem3Description': 'Mobile development for a fleet management platform. Contributed to establishing the mobile application development department and participated in the creation of two real-time unit tracking applications. One was aimed at passenger and cargo transportation companies, and the other focused on school transport. Technologies used included React Native and various libraries, with both applications developed for Android and iOS.',
+    'experienceItem3Description': "Mobile Developer for a fleet management company. I contributed to the establishment of the mobile application development department and participated in the creation of various real-time vehicle tracking applications for passenger and cargo transport. The technologies used included React Native and various libraries, and these applications were developed for Android and iOS.",
   },
   es: {
     'darkMode': 'Modo Oscuro',

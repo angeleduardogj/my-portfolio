@@ -30,7 +30,7 @@ export default function Projects() {
       alt: "logistic",
       techs: ['React', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB'],
       name: "logisoft",
-      description: "Mobile Developer for a fleet management company. I contributed to the establishment of the mobile application development department and participated in the creation of various real-time vehicle tracking applications for passenger and cargo transport. The technologies used included React Native and various libraries, and these applications were developed for Android and iOS.",
+      description: "This project focuses on logistics and fleet management, providing a platform that covers both transportation management and logistics in companies. It allows real-time monitoring and optimization of vehicle fleets while also improving efficiency in inventory management, product movement, and operational coordination within the company.\n\nWith a focus on automation, data analysis, and resource optimization, the system helps reduce costs, improve safety, and ensure more agile and efficient logistics, both for transportation and operations in the company.",
       url:'',
     },
     {
